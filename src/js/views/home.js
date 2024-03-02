@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
+import children from "../../img/class.jpg"
+import adults from "../../img/classes_adults.jpg"
+import { Link } from "react-router-dom";
 import "../../styles/home.css";
 import "animate.css"
 import WOW from "wowjs"
@@ -19,28 +22,28 @@ export const Home = () => {
 				<div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
 					<div className="carousel-inner">
 						<div className="carousel-item active">
-							<img className="w-100" src={rigoImage} alt="Image" />
+							<img className="w-100" src={children} alt="Image" />
 							<div className="carousel-caption">
 								<div className="container">
 									<div className="row justify-content-center">
 										<div className="col-lg-7">
-											<h1 className="display-2 text-light mb-5 animate__animated animate__slideInDown">Learn To Drive With Confidence</h1>
-											<a href="" className="btn btn-primary py-sm-3 px-sm-5">Learn More</a>
-											<a href="" className="btn btn-light py-sm-3 px-sm-5 ms-3">Our Courses</a>
+											<h1 className="display-2 text-light mb-5 animate__animated animate__slideInDown">Making The World a Brighter Place</h1>
+											<Link href="" className="btn btn-navBar py-sm-3 px-sm-5">Sobre nosotros</Link>
+											<Link href="" className="btn btn-navBar py-sm-3 px-sm-5 ms-3">Nuestras clases</Link>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div className="carousel-item">
-							<img className="w-100" src={rigoImage} alt="Image" />
+							<img className="w-100" src={adults} alt="Image" />
 							<div className="carousel-caption">
 								<div className="container">
 									<div className="row justify-content-center">
 										<div className="col-lg-7">
-											<h1 className="display-2 text-light mb-5 animate__animated animate__slideInDown">Safe Driving Is Our Top Priority</h1>
-											<a href="" className="btn btn-primary py-sm-3 px-sm-5">Learn More</a>
-											<a href="" className="btn btn-light py-sm-3 px-sm-5 ms-3">Our Courses</a>
+											<h1 className="display-2 text-light mb-5 animate__animated animate__slideInDown">Education Is Our Top Priority</h1>
+											<a href="" className="btn btn-navBar py-sm-3 px-sm-5">Sobre nosotros</a>
+											<a href="" className="btn btn-navBar py-sm-3 px-sm-5 ms-3">Nuestras clases</a>
 										</div>
 									</div>
 								</div>
@@ -140,7 +143,7 @@ export const Home = () => {
 										<a className="btn btn-primary py-3 px-5" href="">Read More</a>
 									</div>
 									<div className="col-sm-6">
-										<a className="d-inline-flex align-items-center btn btn-outline-primary border-2 p-2" href="tel:+0123456789">
+										<a className="d-inline-flex align-items-center btn border-2 p-2" href="tel:+0123456789">
 											<span className="flex-shrink-0 btn-square bg-primary">
 												<i className="fa fa-phone-alt text-white"></i>
 											</span>
@@ -175,7 +178,7 @@ export const Home = () => {
 								<div className="position-relative mt-auto">
 									<img className="img-fluid" src={rigoImage} alt="" />
 									<div className="courses-overlay">
-										<a className="btn btn-outline-primary border-2" href="">Read More</a>
+										<a className="btn border-2" href="">Read More</a>
 									</div>
 								</div>
 							</div>
@@ -194,7 +197,7 @@ export const Home = () => {
 								<div className="position-relative mt-auto">
 									<img className="img-fluid" src={rigoImage} alt="" />
 									<div className="courses-overlay">
-										<a className="btn btn-outline-primary border-2" href="">Read More</a>
+										<a className="btn border-2" href="">Read More</a>
 									</div>
 								</div>
 							</div>
@@ -213,7 +216,7 @@ export const Home = () => {
 								<div className="position-relative mt-auto">
 									<img className="img-fluid" src={rigoImage} alt="" />
 									<div className="courses-overlay">
-										<a className="btn btn-outline-primary border-2" href="">Read More</a>
+										<a className="btn border-2" href="">Read More</a>
 									</div>
 								</div>
 							</div>
@@ -333,9 +336,9 @@ export const Home = () => {
 								<div className="position-relative">
 									<img className="img-fluid" src={rigoImage} alt="" />
 									<div className="team-social text-center">
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-facebook-f"></i></a>
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-twitter"></i></a>
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-instagram"></i></a>
+										<a className="btn btn-square  border-2 m-1" href=""><i className="fab fa-facebook-f"></i></a>
+										<a className="btn btn-square  border-2 m-1" href=""><i className="fab fa-twitter"></i></a>
+										<a className="btn btn-square  border-2 m-1" href=""><i className="fab fa-instagram"></i></a>
 									</div>
 								</div>
 								<div className="bg-light text-center p-4">
@@ -349,9 +352,9 @@ export const Home = () => {
 								<div className="position-relative">
 									<img className="img-fluid" src={rigoImage} alt="" />
 									<div className="team-social text-center">
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-facebook-f"></i></a>
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-twitter"></i></a>
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-instagram"></i></a>
+										<a className="btn btn-square border-2 m-1" href=""><i className="fab fa-facebook-f"></i></a>
+										<a className="btn btn-square border-2 m-1" href=""><i className="fab fa-twitter"></i></a>
+										<a className="btn btn-square border-2 m-1" href=""><i className="fab fa-instagram"></i></a>
 									</div>
 								</div>
 								<div className="bg-light text-center p-4">
@@ -365,9 +368,9 @@ export const Home = () => {
 								<div className="position-relative">
 									<img className="img-fluid" src={rigoImage} alt="" />
 									<div className="team-social text-center">
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-facebook-f"></i></a>
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-twitter"></i></a>
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-instagram"></i></a>
+										<a className="btn btn-square border-2 m-1" href=""><i className="fab fa-facebook-f"></i></a>
+										<a className="btn btn-square border-2 m-1" href=""><i className="fab fa-twitter"></i></a>
+										<a className="btn btn-square border-2 m-1" href=""><i className="fab fa-instagram"></i></a>
 									</div>
 								</div>
 								<div className="bg-light text-center p-4">
@@ -381,9 +384,9 @@ export const Home = () => {
 								<div className="position-relative">
 									<img className="img-fluid" src={rigoImage} alt="" />
 									<div className="team-social text-center">
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-facebook-f"></i></a>
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-twitter"></i></a>
-										<a className="btn btn-square btn-outline-primary border-2 m-1" href=""><i className="fab fa-instagram"></i></a>
+										<a className="btn btn-square border-2 m-1" href=""><i className="fab fa-facebook-f"></i></a>
+										<a className="btn btn-square border-2 m-1" href=""><i className="fab fa-twitter"></i></a>
+										<a className="btn btn-square border-2 m-1" href=""><i className="fab fa-instagram"></i></a>
 									</div>
 								</div>
 								<div className="bg-light text-center p-4">
