@@ -5,7 +5,7 @@ import logo from "../../img/logo.png"
 export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-			<Link href="index.html" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
+			<Link href="index.html" className="navbar-brand d-flex ms-2 align-items-center">
 				<img src={logo} style={{ width: "90%", height: "90%" }} />
 			</Link>
 			<button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
