@@ -6,7 +6,7 @@ export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
 			<Link href="index.html" className="navbar-brand d-flex ms-2 align-items-center">
-				<img src={logo} style={{ width: "90%", height: "90%" }} />
+				<img src={logo} style={{ width: "50px", height: "50px" }} />
 			</Link>
 			<button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
 				<span className="navbar-toggler-icon"></span>
