@@ -1,8 +1,14 @@
 import React, { useEffect } from "react";
+
+//images
 import rigoImage from "../../img/rigo-baby.jpg";
 import children from "../../img/class.jpg"
 import adults from "../../img/classes_adults.jpg"
+import light from "../../img/favicon.png"
+
 import { Link } from "react-router-dom";
+
+//styles sheets
 import "../../styles/home.css";
 import "animate.css"
 import WOW from "wowjs"
@@ -27,7 +33,8 @@ export const Home = () => {
 								<div className="container">
 									<div className="row justify-content-center">
 										<div className="col-lg-7">
-											<h1 className="display-2 text-light mb-5 animate__animated animate__slideInDown">Making The World a Brighter Place</h1>
+											<img className="img-fluid position-relative mt-auto favicon" src={light} style={{ width: "250px" }} />
+											<h1 className="display-2 mb-5 animate__animated animate__slideInDown">Making The World a Brighter Place</h1>
 											<Link href="" className="btn btn-navBar py-sm-3 px-sm-5">Sobre nosotros</Link>
 											<Link href="" className="btn btn-navBar py-sm-3 px-sm-5 ms-3">Nuestras clases</Link>
 										</div>
@@ -41,7 +48,7 @@ export const Home = () => {
 								<div className="container">
 									<div className="row justify-content-center">
 										<div className="col-lg-7">
-											<h1 className="display-2 text-light mb-5 animate__animated animate__slideInDown">Education Is Our Top Priority</h1>
+											<h1 className="display-2 mb-5 animate__animated animate__slideInDown">Education Is Our Top Priority</h1>
 											<a href="" className="btn btn-navBar py-sm-3 px-sm-5">Sobre nosotros</a>
 											<a href="" className="btn btn-navBar py-sm-3 px-sm-5 ms-3">Nuestras clases</a>
 										</div>

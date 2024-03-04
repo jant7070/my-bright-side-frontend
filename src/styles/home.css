@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :root {
     --primary: #4ead74;
     --secondary: #febd5b;
@@ -41,6 +44,7 @@
 
 /*** Button ***/
 .btn {
+    font-family: "Work Sans", sans-serif;
     font-weight: 500;
     transition: .5s;
 }
@@ -68,6 +72,7 @@
     align-items: center;
     justify-content: center;
     font-weight: normal;
+    font-family: "Work Sans", sans-serif;
 }
 
 
@@ -98,6 +103,7 @@
     padding: 25px 0;
     color: var(--dark);
     font-weight: 500;
+    font-family: "Work Sans", sans-serif;
     text-transform: uppercase;
     outline: none;
 }
@@ -147,6 +153,13 @@
 }
 
 /*** Header ***/
+
+@media (max-width: 768px) {
+    .favicon {
+        display: none;
+    }
+}
+
 .carousel-caption {
     top: 0;
     left: 0;
@@ -158,6 +171,13 @@
     text-align: center;
     background: rgba(0, 0, 0, .75);
     z-index: 1;
+    
+}
+
+.display-2 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    color: #ba98fe;
 }
 
 .carousel-control-prev,
@@ -323,6 +343,7 @@
     text-align: left;
     color: var(--light);
     font-weight: normal;
+    font-family: "Work Sans", sans-serif;
     text-transform: capitalize;
     transition: .3s;
 }
