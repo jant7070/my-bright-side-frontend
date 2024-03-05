@@ -3,9 +3,9 @@
 
 :root {
     --primary: #4ead74;
-    --secondary: #febd5b;
-    --light: #F1F7B5;
-    --dark: #febd5b;
+    --secondary: #fedd03;
+    --light: #e25933;
+    --dark: #2a5fab;
 }
 
 .py-6 {
@@ -17,15 +17,6 @@
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
-
-.back-to-top {
-    position: fixed;
-    display: none;
-    right: 30px;
-    bottom: 30px;
-    z-index: 99;
-}
-
 
 /*** Button ***/
 .btn {
@@ -158,6 +149,10 @@
 }
 
 /*** Header ***/
+.favicon {
+    width: 250px;
+}
+
 
 @media (max-width: 768px) {
     .favicon {
@@ -184,6 +179,8 @@
     font-weight: 600;
     color: var(--secondary)
 }
+
+
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -223,9 +220,6 @@
 
 
 /*** Facts ***/
-.facts-icons {
-    background-color: var(--dark);
-}
 
 @media (min-width: 991.98px) {
     .facts {
@@ -235,13 +229,46 @@
     }
 }
 
+.facts-label {
+    min-height: 150px;
+}
+/* About us */
+
+strong {
+    color: var(--secondary);
+}
+
+.about-container {
+    min-height: 400px;
+}
+
+.img-1-about {
+    object-fit: cover;
+}
+
+.img-2-about {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
 
 /*** Courses ***/
 .courses {
     min-height: 100vh;
-    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/carousel-1.jpg) center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.art-class {
+    background: var(--light);
+}
+
+.english-class {
+    background: var(--dark);
+}
+
+.day-care {
+    background-color: var(--secondary);
 }
 
 .courses-item .courses-overlay {
@@ -344,31 +371,14 @@
 
 
 /*** Footer ***/
-.footer .btn.btn-link {
-    display: block;
-    margin-bottom: 5px;
-    padding: 0;
-    text-align: left;
-    color: var(--light);
-    font-weight: normal;
-    font-family: "Work Sans", sans-serif;
-    text-transform: capitalize;
-    transition: .3s;
-}
-
-.footer .btn.btn-link::before {
-    position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: var(--light);
-    margin-right: 10px;
+.footer .btn-link {
+    text-decoration: none;
+    color: white;
 }
 
 .footer .btn.btn-link:hover {
+    transform: scale(1.2);
     color: var(--primary);
-    letter-spacing: 1px;
-    box-shadow: none;
 }
 
 .copyright {
@@ -381,4 +391,22 @@
 
 .copyright a:hover {
     color: var(--light);
+}
+
+.footer-logo {
+    width: 150px;
+    height: 150px;
+    overflow: visible;
+}
+
+.contacto-footer {
+    color: var(--light);
+}
+
+.links-footer {
+    color: var(--primary);
+}
+
+.follow-footer {
+    color: var(--secondary);
 }
