@@ -27,21 +27,6 @@
 }
 
 
-/*** Spinner ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
-
-
 /*** Button ***/
 .btn {
     font-family: "Work Sans", sans-serif;
@@ -88,6 +73,26 @@
 }
 
 /*** Navbar ***/
+
+.fa-arrow-right {
+    animation: backForth 1s infinite ;
+}
+
+@keyframes backForth {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -177,7 +182,7 @@
 .display-2 {
     font-family: "Work Sans", sans-serif;
     font-weight: 600;
-    color: #ba98fe;
+    color: var(--secondary)
 }
 
 .carousel-control-prev,
@@ -218,6 +223,10 @@
 
 
 /*** Facts ***/
+.facts-icons {
+    background-color: var(--dark);
+}
+
 @media (min-width: 991.98px) {
     .facts {
         position: relative;
@@ -279,7 +288,6 @@
 
 .team-item:hover::after {
     height: 100%;
-    background: var(--primary);
 }
 
 .team-item .team-social {

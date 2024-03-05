@@ -27,7 +27,7 @@ export const Navbar = () => {
 					</div>
 					<Link to="/" className="nav-item nav-link">Contacto</Link>
 					<Link to="/" className="nav-item nav-link">Iniciar sesión</Link>
-					<Link href="" className="nav-item nav-link active registro">Registrarme<i className="fa fa-arrow-right ms-3"></i></Link>
+					<Link to="/" className="nav-item nav-link active registro"><i className="fa fa-arrow-right me-3"></i>Registrarme</Link>
 				</div>
 			</div>
 		</nav>
