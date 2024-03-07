@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 export const Footer = () => (
-	<footer className="container-fluid bg-dark text-light footer my-6 mb-0 py-6 wow fadeIn" data-wow-delay="0.1s">
+	<footer className="container-fluid bg-dark text-light footer py-3 mb-0 wow fadeIn" data-wow-delay="0.1s">
 		<div className="container">
 			<div className="row g-5">
 				<div className="col-lg-3 col-md-6 justify-content-center text-center">

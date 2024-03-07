@@ -132,7 +132,7 @@ export const Home = () => {
 						<div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
 							<div className="h-100">
 								<h4 className="text-uppercase mb-2">Sobre nosotros</h4>
-								<h1 className="display-6 mb-4">Te ayudamos a encontrar tu <strong>BRIGHT SIDE</strong></h1>
+								<h1 className="display-6 mb-4">Te ayudamos a encontrar tu <strong className="about-strong">BRIGHT SIDE</strong></h1>
 								<p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
 								<p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
 								<div className="row g-2 mb-4 pb-2">

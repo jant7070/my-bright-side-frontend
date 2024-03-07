@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 :root {
     --primary: #4ead74;
     --secondary: #fedd03;
@@ -234,7 +233,7 @@
 }
 /* About us */
 
-strong {
+.about-strong {
     color: var(--secondary);
 }
 
@@ -409,4 +408,11 @@ strong {
 
 .follow-footer {
     color: var(--secondary);
+}
+
+/* Register */
+.register {
+    background-image: url("https://images.pexels.com/photos/8363119/pexels-photo-8363119.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
